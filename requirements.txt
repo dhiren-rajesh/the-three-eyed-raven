@@ -1,0 +1,38 @@
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-groq
+langserve
+
+# Streamlit & environment
+streamlit>=1.32.0
+python-dotenv>=1.0.0
+
+# API web frameworks
+fastapi
+uvicorn
+sse_starlette
+
+# HTML parser
+beautifulsoup4
+
+# PDF processor
+pypdf
+
+# Databases / Vector stores
+chromadb
+faiss-cpu
+
+# Knowledge sources
+arxiv
+wikipedia
+
+# AI models / providers
+ollama
+google-genai
+groq
+
+# Google utilities
+google
