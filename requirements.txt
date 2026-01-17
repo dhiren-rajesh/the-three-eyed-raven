@@ -37,3 +37,7 @@ groq
 
 # Google utilities
 google
+
+#APIs
+# 1. ErgastAPI - Formula 1
+# 2. StatsBomb - Football (https://github.com/statsbomb/open-data)

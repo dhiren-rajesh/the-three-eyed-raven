@@ -2,7 +2,7 @@
 .env
 
 #Virtual Environments
-got-venv/
+f-venv/
 
 #Python Cache
 __pycache__/
