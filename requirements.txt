@@ -20,6 +20,7 @@ beautifulsoup4
 
 # PDF processor
 pypdf
+pdfplumber
 
 # Databases / Vector stores
 chromadb
