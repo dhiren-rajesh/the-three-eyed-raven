@@ -4,6 +4,7 @@ langchain-core
 langchain-community
 langchain-openai
 langchain-groq
+langchain-google-genai
 langserve
 
 # Streamlit & environment
@@ -37,6 +38,9 @@ groq
 
 # Google utilities
 google
+
+#API Call
+requests
 
 #APIs
 # 1. ErgastAPI - Formula 1
