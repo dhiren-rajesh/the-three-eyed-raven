@@ -1,10 +1,8 @@
 import requests
-from langchain_core.tools import tool
 
 BASE_URL= "https://ergast.com/api/f1"
 
-@tool
-def ergast_f1_api(endpoint: str) -> dict:
+def fetch_f1_api(endpoint: str) -> dict:
     """
     Fetch Formula 1 data from Ergast API
 
