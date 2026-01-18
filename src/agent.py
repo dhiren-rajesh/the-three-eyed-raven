@@ -2,7 +2,6 @@ from langchain_core.tools import tool
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
-from langchain_core.messages import ToolMessage
 
 from api import fetch_f1_api
 
@@ -19,7 +18,7 @@ def build_agent():
         temperature=0
     )
 
-    llm_with_tools = llm.bind_tools([fetch_f1_api])
+    llm_with_tools = llm.bind_tools([ergast_f1_agent])
 
     f1_prompt = ChatPromptTemplate.from_messages([
         ("system", 
